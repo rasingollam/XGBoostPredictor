@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load("../train/forex_model.pkl")
+model = joblib.load("../train/models/forex_model.pkl")
 
 # Init app
 app = FastAPI()
